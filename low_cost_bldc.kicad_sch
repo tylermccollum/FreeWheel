@@ -1,0 +1,127 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e565d448-f724-46fc-88a0-0a0a0cb7460c")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 195.58 81.28)
+		(size 31.75 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "24c4a60a-a0c1-4b3f-81cd-78a8792dc072")
+		(property "Sheetname" "Inverter"
+			(at 195.58 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "low_cost_bldc-inverter.kicad_sch"
+			(at 195.58 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "low_cost_bldc"
+				(path "/e565d448-f724-46fc-88a0-0a0a0cb7460c"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 74.93)
+		(size 55.88 30.48)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "313fbadb-2fe1-4243-b9bb-3c1ff8b56708")
+		(property "Sheetname" "Power"
+			(at 50.8 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "low_cost_bldc-power.kicad_sch"
+			(at 50.8 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "low_cost_bldc"
+				(path "/e565d448-f724-46fc-88a0-0a0a0cb7460c"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 125.73 73.66)
+		(size 41.91 29.21)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d90fd24a-9301-45dd-ae73-676dc8096250")
+		(property "Sheetname" "MCU"
+			(at 125.73 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "low_cost_bldc-mcu.kicad_sch"
+			(at 125.73 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "low_cost_bldc"
+				(path "/e565d448-f724-46fc-88a0-0a0a0cb7460c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
