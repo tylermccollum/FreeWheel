@@ -1640,70 +1640,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 127 165.1 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1f86597d-7ba9-4970-957a-ba2d1e3d9958")
-		(property "Reference" "H3"
-			(at 129.54 163.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 129.54 166.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 127 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 127 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "low_cost_bldc"
-				(path "/e565d448-f724-46fc-88a0-0a0a0cb7460c"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 151.13 39.37 0)
 		(unit 1)
@@ -1871,7 +1807,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
 			(at 91.44 165.1 0)
 			(effects
 				(font
@@ -1979,16 +1915,16 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 109.22 165.1 0)
+		(at 110.49 165.1 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4801ac3c-8f67-47a9-900a-9d16cce265cc")
+		(uuid "3fb4db15-b775-447a-8488-2779ef39df41")
 		(property "Reference" "H2"
-			(at 111.76 163.8299 0)
+			(at 113.03 163.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1997,7 +1933,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 111.76 166.3699 0)
+			(at 113.03 166.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2005,8 +1941,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 109.22 165.1 0)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 110.49 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2015,7 +1951,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 165.1 0)
+			(at 110.49 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2024,7 +1960,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 109.22 165.1 0)
+			(at 110.49 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2106,6 +2042,70 @@
 			(project "low_cost_bldc"
 				(path "/e565d448-f724-46fc-88a0-0a0a0cb7460c"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 142.3711 165.0614 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b3b9ede-d23a-49f9-8025-010bd97f112b")
+		(property "Reference" "H4"
+			(at 144.9111 163.7913 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 144.9111 166.3313 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 142.3711 165.0614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.3711 165.0614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 142.3711 165.0614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "low_cost_bldc"
+				(path "/e565d448-f724-46fc-88a0-0a0a0cb7460c"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -2485,70 +2485,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 144.78 165.1 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba222a2f-e551-4c68-8d69-056cf8c1654b")
-		(property "Reference" "H4"
-			(at 147.32 163.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 147.32 166.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 144.78 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 144.78 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "low_cost_bldc"
-				(path "/e565d448-f724-46fc-88a0-0a0a0cb7460c"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 135.89 39.37 0)
 		(unit 1)
@@ -2613,6 +2549,70 @@
 			(project "low_cost_bldc"
 				(path "/e565d448-f724-46fc-88a0-0a0a0cb7460c"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 128.27 165.1 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5cf23bc-befd-4ef9-85a7-ad6fa63a8fb0")
+		(property "Reference" "H3"
+			(at 130.81 163.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 130.81 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 128.27 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 128.27 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "low_cost_bldc"
+				(path "/e565d448-f724-46fc-88a0-0a0a0cb7460c"
+					(reference "H3")
 					(unit 1)
 				)
 			)
