@@ -2751,6 +2751,16 @@
 		)
 		(uuid "fe541259-8e91-4f00-8169-6d685b0d3eaf")
 	)
+	(text "This resistor is gonna pop"
+		(exclude_from_sim no)
+		(at 256.286 175.006 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5101f1c6-a59f-49ee-a053-c1e2c9699606")
+	)
 	(text "The COM pin should be directly tied to the low-side source, but that's difficult layout-wise. \nGiven the low sense resistor and time of measurement, it'll probably be fine. \nMight add noise.\n"
 		(exclude_from_sim no)
 		(at 163.83 142.494 0)
@@ -2760,6 +2770,16 @@
 			)
 		)
 		(uuid "7db2bcab-afcd-464c-a64e-d80138e57678")
+	)
+	(text "Fix gain w/ resistor"
+		(exclude_from_sim no)
+		(at 205.74 177.546 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d8cb8015-b6dc-459d-9c09-dedae6206086")
 	)
 	(hierarchical_label "~{PWM_LO}"
 		(shape input)

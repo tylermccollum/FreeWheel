@@ -2906,6 +2906,16 @@
 		)
 		(uuid "fedd0621-0faa-4851-b920-2ec78d143a52")
 	)
+	(text "Sensor input or control input?"
+		(exclude_from_sim no)
+		(at 28.448 55.372 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2adccd6f-7af4-439e-901a-5ea850e13d3c")
+	)
 	(label "PHASE_W"
 		(at 259.08 129.54 180)
 		(effects
